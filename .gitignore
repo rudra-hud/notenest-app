@@ -76,3 +76,5 @@ coverage/              # Test coverage reports (e.g., from Jest, Vitest)
 # -------------------------------------------------------------
 tmp/                   # General temporary files directory
 temp/                  # Another common temporary directory
+
+GEMINI_API_KEY='AIzaSyAWZSpZjGEj-7H2X76u6i1MCTh2U1n5EHg'
