@@ -1,0 +1,7 @@
+{
+  "name": "NoteNest",
+  "description": "A feature-rich note-taking application inspired by modern Android design. It allows for rich text notes, tasks with subtasks, visual mind maps, and various attachments like images, voice recordings, and doodles, with extensive customization options.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,78 @@
+# -------------------------------------------------------------
+# Core Build & Dependencies
+# -------------------------------------------------------------
+node_modules/          # Node.js module dependencies
+dist/                  # Vite production build output
+dist-ssr/              # Vite SSR (Server-Side Rendering) build output
+build/                 # Common alternative build output directory
+
+# -------------------------------------------------------------
+# Logs & Debugging
+# -------------------------------------------------------------
+logs/                  # Directory for application logs
+*.log                  # Any file ending with .log
+npm-debug.log*         # npm debug logs
+yarn-debug.log*        # yarn debug logs
+yarn-error.log*        # yarn error logs
+pnpm-debug.log*        # pnpm debug logs
+lerna-debug.log*       # Lerna debug logs
+
+# -------------------------------------------------------------
+# Environment Variables & Secrets (CRITICAL FOR API KEYS)
+# -------------------------------------------------------------
+.env                   # Generic .env file
+.env.local             # Local environment variables (like your GEMINI_API_KEY)
+.env.*.local           # Environment variables for specific environments (e.g., .env.development.local, .env.production.local)
+.env.development       # Specific development environment file (if not .local)
+.env.test              # Specific test environment file
+.env.production        # Specific production environment file
+
+# -------------------------------------------------------------
+# Vite / Frontend Specific Caches
+# -------------------------------------------------------------
+.vite/                 # Vite's internal cache directory
+
+# -------------------------------------------------------------
+# TypeScript Caches
+# -------------------------------------------------------------
+*.tsbuildinfo          # TypeScript build information file for incremental builds
+
+# -------------------------------------------------------------
+# IDE & OS Specific Files
+# -------------------------------------------------------------
+# VS Code
+.vscode/*              # VS Code workspace settings (generally ignored)
+!.vscode/extensions.json # KEEP this! It's useful for team collaboration to suggest recommended extensions.
+!.vscode/settings.json # Optional: If you have shared VS Code settings you want to commit, uncomment this.
+
+# JetBrains IDEs (IntelliJ, WebStorm, etc.)
+.idea/                 # Directory for JetBrains IDE project files
+
+# macOS
+.DS_Store              # macOS folder metadata
+
+# Windows
+*.suo                  # Visual Studio solution user options
+*.ntvs*                # Node.js Tools for Visual Studio
+*.njsproj              # Node.js project file for Visual Studio
+*.sln                  # Visual Studio solution file
+Thumbs.db              # Windows thumbnail cache
+
+# Vim/Swap Files
+*.sw?                  # Vim editor swap files
+
+# Other common editor/tool caches
+.eslintcache           # ESLint cache file
+.parcel-cache/         # Parcel bundler cache (if used)
+.nx/                   # Nx dev tools cache (if used)
+
+# -------------------------------------------------------------
+# Test Reports
+# -------------------------------------------------------------
+coverage/              # Test coverage reports (e.g., from Jest, Vitest)
+
+# -------------------------------------------------------------
+# Temporary Files
+# -------------------------------------------------------------
+tmp/                   # General temporary files directory
+temp/                  # Another common temporary directory
